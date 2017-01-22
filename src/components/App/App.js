@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import Nav from './Nav'
-import log from './utils/log'
+// import ReactDOM from 'react-dom'
+import Nav from '../Nav/Nav'
+import log from '../../utils/log'
 import './App.css'
 
 const MakeP = props =>
