@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import logo from '../../../public/logo.svg';
-import '../App/App.css'
+import logo from '../../../public/logo.svg'
+import './Nav.css'
 
 class Nav extends Component {
 
