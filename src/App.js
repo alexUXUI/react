@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 import Nav from './Nav'
 import log from './utils/log'
-import clock from './clock/clock'
 import './App.css'
 
 const MakeP = props =>
@@ -22,8 +22,6 @@ const Markup = (
     <div id="timer"></div>
   </div>
 )
-
-setInterval(clock.Tick, 1000)
 
 class App extends Component {
   componentWillMount = () => log('about to render')
