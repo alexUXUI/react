@@ -1,0 +1,9 @@
+/*
+ * Eventhough this CSS lives in the components,
+ * it is still global so it's best to wrap all
+ * component-level styles in the compenent parent el.
+ */
+
+.people li {
+  list-style: none;
+}

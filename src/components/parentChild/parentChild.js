@@ -25,7 +25,7 @@ class Child extends Component {
   }
 
   render(){
-    // child invokes function within parent through props 
+    // child invokes function within parent through props
     return(
       <button onClick={this.props.callParent}>Call Parent</button>
     )

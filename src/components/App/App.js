@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Nav from '../Nav/Nav'
 import Button from '../Button/Button'
 import Parent from '../parentChild/parentChild'
+import Collection from '../Collection/Collection'
 import log from '../../utils/log'
 import './App.css'
 
@@ -16,6 +17,8 @@ const Markup = (
     <Button />
     <br />
     <Parent />
+    <br />
+    <Collection />
   </div>
 )
 
