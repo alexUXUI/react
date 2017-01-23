@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Nav from '../Nav/Nav'
 import Button from '../Button/Button'
+import Parent from '../parentChild/parentChild'
 import log from '../../utils/log'
 import './App.css'
 
@@ -13,6 +14,8 @@ const Markup = (
     <Nav />
     <P exclamation="Awesome!" />
     <Button />
+    <br />
+    <Parent />
   </div>
 )
 
